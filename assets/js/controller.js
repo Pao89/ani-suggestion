@@ -2,8 +2,9 @@ import * as $ from "jquery";
 window.$ = $;
 window.jQuery = $;
 import "bootstrap";
+import * as api from "./apiCalls";
 
-const $body = $("body");
+/* const $body = $("body");
 
 const query = `
 query ($id: Int, $page: Int, $perPage: Int, $search: String) {
@@ -52,3 +53,6 @@ $.ajax({
 }).done(function (data) {
 	console.log(data);
 });
+ */
+
+console.log(api.testQuery());
