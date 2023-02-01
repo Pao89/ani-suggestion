@@ -1,0 +1,19 @@
+You don't know what to watch? This app will try giving you a suggestion.
+
+Entrypoints -> Normal enter -> Interact with Form -> Submit research queries -> Get result -> Update view
+
+Field form: Filter by Checkbox Manga || Anime (anime will be implemented first)
+
+If anime is checked => Updates with a form field with a select of checkboxes to select whether you want to include MOVIES/TV/ONA/OVA etc.;
+
+Filter by Trending anime?
+
+Filter by Popularity? Popularity range form input
+
+Research most used genres or include them all with a select of checkboxes for genres.
+
+Graphic includes a big card that sits in the middle of the screen, shadow modern boxes with rounded edges Background of body should be a linear
+gradient of the color of the anime.
+
+What i display on the card: title, status,genres, description, episodes, averageScore, favourites (or volume and chapters for manga), bannerimage,
+(later on implement whether anime has sequels, if it's a sequel) (desktop), coverImage (mobile),
