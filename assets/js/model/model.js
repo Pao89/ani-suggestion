@@ -21,6 +21,26 @@ export class Field {
 		}
 	}
 
+	hasFilter(filterName) {
+		return this.filters.some((filter) => filter.name == filterName);
+	}
+
+	addFilter(filter) {
+		this.filters.push(filter);
+	}
+
+	removeFilter = (filterName) => {
+		this.filters = this.filters.filter((filter) => filter.name != filterName);
+	};
+
+	addField(field) {
+		this.fields.push(field);
+	}
+
+	removeField(fieldName) {
+		this.fields = this.fields.filter((field) => field.name != fieldName);
+	}
+
 	parseFilters() {
 		if (this.filters.length == 0) return "";
 		return `(${this.filters.map((filter) => filter.parseFilter()).join(",")})`;
